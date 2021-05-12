@@ -1,0 +1,40 @@
+{
+  "name": "qiankun-jiang-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all:install": "npm-run-all --serial install:*",
+    "all:start": "npm-run-all --parallel start:*",
+    "install:main": "cd qiankun-main && yarn",
+    "start:main": "cd qiankun-main && yarn serve",
+    "install:vue": "cd qiankun-vue && yarn",
+    "start:vue": "cd qiankun-vue && yarn serve",
+    "install:react": "cd qiankun-react && yarn",
+    "start:react": "cd qiankun-react && yarn start",
+    "prettier": "prettier -c --write **/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,json,css,md}": [
+      "yarn prettier",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

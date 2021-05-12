@@ -1,0 +1,101 @@
+{
+  "patient": {
+    "age": "1天",
+    "birthday": "2020-08-17",
+    "createTime": 1597677869000,
+    "customerId": 1119649,
+    "gender": 1,
+    "institutionChainType": 2,
+    "isMember": 2,
+    "medicalInstitutionId": 578,
+    "medicalRecordNo": "BL202008170002",
+    "mobile": "13521118993",
+    "patientContactsList": [
+      {
+        "address": "不是所有的阴天都会下雨，也不是每次的伤心都会流泪",
+        "alternateMobile": "13521118991",
+        "area": 110101,
+        "city": 110100,
+        "contactLabel": 1,
+        "mobile": "13521118993",
+        "patientContactsId": 261,
+        "patientId": 192,
+        "province": 110000,
+        "qqNum": "222222222222222",
+        "weChatId": "11111111111111111111"
+      }
+    ],
+    "patientId": 192,
+    "patientName": "相德",
+    "patientNo": "BL202008170002",
+    "registerMedicalInstitutionName": "DENTAL-直营一店",
+    "settingsTypeId": 19,
+    "settingsTypeName": "普通",
+    "visType": 1
+  },
+  "duration": 30,
+  "COMMON_DATA_APPOINTMENT_ITEM": [],
+  "appointmentBeginTimeStamp": 1597717800000,
+  "consultant": -1,
+  "dentalHygienist": -1,
+  "doctor": 2738,
+  "institutionConsultingRoomId": -1,
+  "help": [-1],
+  "nurse": [-1],
+  "appointmentType": 1,
+  "medicalInstitution": {
+    "appointmentMedicalInstitutionId": 579,
+    "appointmentMedicalInstitutionName": "DENTAL-直营二店",
+    "institutionChainType": 2,
+    "institutionTypeId": 2,
+    "isCurrentInstitutionFlag": true,
+    "medicalInstitutionSimpleCode": "DENTAL-直营二店",
+    "parentId": 577,
+    "staffMedicalInstitutionId": 579,
+    "topParentId": 577
+  },
+  "patientId": 192,
+  "appointmentStatus": 2,
+  "appointmentResourceMap": {
+    "STAFF": [
+      {
+        "departmentId": 378,
+        "mobile": "11111111111",
+        "position": 2,
+        "sort": 1,
+        "staffId": 2738,
+        "staffName": "陈晨（医生）",
+        "username": "chenyx1"
+      },
+      { "staffId": -1, "staffName": "未指定洁牙师", "position": 3 },
+      { "staffId": -1, "staffName": "未指定咨询师", "position": 4 },
+      { "staffId": -1, "staffName": "未指定助理", "position": 5 },
+      { "staffId": -1, "staffName": "未指定护士", "position": 6 }
+    ],
+    "DEPARTMENT": [
+      {
+        "institutionDepartmentId": -1,
+        "institutionDepartmentName": "未指定科室"
+      }
+    ],
+    "CONSULTING_ROOM": [
+      {
+        "institutionConsultingRoomId": -1,
+        "institutionConsultingRoomName": "未指定诊室"
+      }
+    ]
+  },
+  "appointmentEndTimeStamp": 1597719599999,
+  "appointmentMedicalInstitutionObj": {
+    "appointmentMedicalInstitutionId": 579,
+    "appointmentMedicalInstitutionName": "DENTAL-直营二店",
+    "institutionChainType": 2,
+    "institutionTypeId": 2,
+    "isCurrentInstitutionFlag": true,
+    "medicalInstitutionSimpleCode": "DENTAL-直营二店",
+    "parentId": 577,
+    "staffMedicalInstitutionId": 579,
+    "topParentId": 577
+  },
+  "appointmentMedicalInstitutionId": 579
+}

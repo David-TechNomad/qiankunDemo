@@ -1,0 +1,13 @@
+{
+  "medicalInstitution": {
+    "appointmentMedicalInstitutionId": 1123,
+    "appointmentMedicalInstitutionName": "1",
+    "institutionChainType": 2,
+    "institutionTypeId": 2,
+    "isCurrentInstitutionFlag": true,
+    "medicalInstitutionSimpleCode": "上海分部",
+    "parentId": 1120,
+    "staffMedicalInstitutionId": 1123,
+    "topParentId": 1120
+  }
+}

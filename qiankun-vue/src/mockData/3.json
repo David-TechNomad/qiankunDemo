@@ -1,0 +1,32 @@
+{
+  "medicalInstitution": {
+    "address": "天上人间二楼208号",
+    "area": 110101,
+    "areaText": "东城区",
+    "beginTimeMilliSecond": 0,
+    "beginTimeStr": "9:00",
+    "city": 110100,
+    "cityText": "北京市",
+    "contactsName": "闵行上海分部上海分部上海分部上海分部上海分部上海分部上海分部",
+    "contactsPhone": "13521118993",
+    "endTimeMilliSecond": 86340000,
+    "endTimeStr": "18:00",
+    "expireDate": 1622908799000,
+    "hasScrmResource": true,
+    "institutionChainType": 2,
+    "institutionCode": "",
+    "institutionTypeId": 2,
+    "institutionWebSite": "",
+    "medicalCode": "",
+    "medicalInstitutionId": 1123,
+    "medicalInstitutionName": "1",
+    "medicalInstitutionSimpleCode": "上海分部",
+    "memberCode": "相德口腔",
+    "parentId": 1120,
+    "province": 110000,
+    "provinceText": "北京",
+    "styleId": 1,
+    "topParentId": 1120,
+    "tenantId": 604
+  }
+}

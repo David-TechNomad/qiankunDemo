@@ -1,0 +1,73 @@
+{
+  "patient": {
+    "age": "13天",
+    "birthday": "2020-08-05",
+    "createTime": 1597249126000,
+    "customerId": 1117889,
+    "gender": 2,
+    "institutionChainType": 2,
+    "isMember": 2,
+    "medicalInstitutionId": 578,
+    "medicalRecordNo": "BL202008120014",
+    "mobile": "11111111111",
+    "patientContactsList": [
+      {
+        "contactLabel": 1,
+        "mobile": "11111111111",
+        "patientContactsId": 246,
+        "patientId": 183
+      }
+    ],
+    "patientId": 183,
+    "patientName": "李丽",
+    "patientNo": "BL202008120014",
+    "registerMedicalInstitutionName": "DENTAL-直营一店",
+    "settingsTypeId": 19,
+    "settingsTypeName": "普通"
+  },
+  "duration": 30,
+  "COMMON_DATA_APPOINTMENT_ITEM": [],
+  "appointmentBeginTimeStamp": 1597680000000,
+  "consultant": -1,
+  "dentalHygienist": -1,
+  "doctor": -1,
+  "institutionConsultingRoomId": -1,
+  "help": [-1],
+  "nurse": [-1],
+  "appointmentType": 1,
+  "medicalInstitution": {
+    "medicalInstitutionSimpleCode": "DENTAL-直营二店",
+    "appointmentMedicalInstitutionId": 579,
+    "isCurrentInstitutionFlag": true
+  },
+  "patientId": 183,
+  "appointmentStatus": 2,
+  "appointmentResourceMap": {
+    "STAFF": [
+      { "staffId": -1, "staffName": "未指定医生", "position": 2 },
+      { "staffId": -1, "staffName": "未指定洁牙师", "position": 3 },
+      { "staffId": -1, "staffName": "未指定咨询师", "position": 4 },
+      { "staffId": -1, "staffName": "未指定助理", "position": 5 },
+      { "staffId": -1, "staffName": "未指定护士", "position": 6 }
+    ],
+    "DEPARTMENT": [
+      {
+        "institutionDepartmentId": -1,
+        "institutionDepartmentName": "未指定科室"
+      }
+    ],
+    "CONSULTING_ROOM": [
+      {
+        "institutionConsultingRoomId": -1,
+        "institutionConsultingRoomName": "未指定诊室"
+      }
+    ]
+  },
+  "appointmentEndTimeStamp": 1597681799999,
+  "appointmentMedicalInstitutionObj": {
+    "medicalInstitutionSimpleCode": "DENTAL-直营二店",
+    "appointmentMedicalInstitutionId": 579,
+    "isCurrentInstitutionFlag": true
+  },
+  "appointmentMedicalInstitutionId": 579
+}
